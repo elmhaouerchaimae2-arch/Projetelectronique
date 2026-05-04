@@ -5,6 +5,7 @@ import re
 
 app = FastAPI()
 
+print("Starting server...")
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "phi3:mini"
 OLLAMA_TIMEOUT = 120
